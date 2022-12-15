@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (robprakt) JobQueued: {'identifier': 'robprakt', 'dependencies': OrderedDict()}
+[0.000260] (vrpn) JobQueued: {'identifier': 'vrpn', 'dependencies': OrderedDict()}
+[0.000293] (vrpn_client_ros) JobQueued: {'identifier': 'vrpn_client_ros', 'dependencies': OrderedDict()}
+[0.000324] (robprakt) JobStarted: {'identifier': 'robprakt'}
+[0.096009] (-) TimerEvent: {}
+[0.207981] (-) TimerEvent: {}
+[0.319972] (-) TimerEvent: {}
+[0.432106] (-) TimerEvent: {}
+[0.544083] (-) TimerEvent: {}
+[0.656356] (-) TimerEvent: {}
+[0.768011] (-) TimerEvent: {}
+[0.877921] (-) TimerEvent: {}
+[0.937222] (robprakt) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robprakt', 'build', '--build-base', '/home/rob/praktikum_ws/build/robprakt/build', 'install', '--prefix', '/home/rob/praktikum_ws/install/robprakt', '--record', '/home/rob/praktikum_ws/build/robprakt/install.log', '--single-version-externally-managed'], 'cwd': '/home/rob/praktikum_ws/src/robprakt', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rob', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '1291', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/rob', 'OLDPWD': '/home/rob/praktikum_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1039', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rob/praktikum_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'rob', 'JOURNAL_STREAM': '8:32885', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/rob/praktikum_ws/install/vrpn/lib/x86_64-linux-gnu/pkgconfig:/home/rob/praktikum_ws/install/vrpn/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rob', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/rob/praktikum_ws/install/vrpn/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rob-VirtualBox:@/tmp/.ICE-unix/1330,unix/rob-VirtualBox:/tmp/.ICE-unix/1330', 'INVOCATION_ID': '6692e96cb720459fa50648f92ac4c914', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7a24607e_b5b5_449b_818d_8eb77f0a1411', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.80', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rob/praktikum_ws/install/robprakt:/home/rob/praktikum_ws/install/vrpn_client_ros:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rob/praktikum_ws/build/robprakt', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn'}, 'shell': False}
+[0.979428] (-) TimerEvent: {}
+[1.081803] (-) TimerEvent: {}
+[1.184108] (-) TimerEvent: {}
+[1.257897] (robprakt) StdoutLine: {'line': b'running egg_info\n'}
+[1.259180] (robprakt) StdoutLine: {'line': b'writing ../../build/robprakt/robprakt.egg-info/PKG-INFO\n'}
+[1.259744] (robprakt) StdoutLine: {'line': b'writing dependency_links to ../../build/robprakt/robprakt.egg-info/dependency_links.txt\n'}
+[1.260165] (robprakt) StdoutLine: {'line': b'writing entry points to ../../build/robprakt/robprakt.egg-info/entry_points.txt\n'}
+[1.260511] (robprakt) StdoutLine: {'line': b'writing requirements to ../../build/robprakt/robprakt.egg-info/requires.txt\n'}
+[1.260818] (robprakt) StdoutLine: {'line': b'writing top-level names to ../../build/robprakt/robprakt.egg-info/top_level.txt\n'}
+[1.296205] (-) TimerEvent: {}
+[1.321381] (robprakt) StdoutLine: {'line': b"reading manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'\n"}
+[1.322780] (robprakt) StdoutLine: {'line': b"writing manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'\n"}
+[1.323231] (robprakt) StdoutLine: {'line': b'running build\n'}
+[1.323417] (robprakt) StdoutLine: {'line': b'running build_py\n'}
+[1.323917] (robprakt) StdoutLine: {'line': b'running install\n'}
+[1.324934] (robprakt) StdoutLine: {'line': b'running install_lib\n'}
+[1.326811] (robprakt) StdoutLine: {'line': b'running install_data\n'}
+[1.327654] (robprakt) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.330266] (robprakt) StdoutLine: {'line': b"removing '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.330773] (robprakt) StdoutLine: {'line': b'Copying ../../build/robprakt/robprakt.egg-info to /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info\n'}
+[1.331837] (robprakt) StdoutLine: {'line': b'running install_scripts\n'}
+[1.355606] (robprakt) StdoutLine: {'line': b'Installing service script to /home/rob/praktikum_ws/install/robprakt/lib/robprakt\n'}
+[1.356420] (robprakt) StdoutLine: {'line': b"writing list of installed files to '/home/rob/praktikum_ws/build/robprakt/install.log'\n"}
+[1.391296] (robprakt) CommandEnded: {'returncode': 0}
+[1.397508] (-) TimerEvent: {}
+[1.402821] (robprakt) JobEnded: {'identifier': 'robprakt', 'rc': 0}
+[1.403585] (vrpn) JobStarted: {'identifier': 'vrpn'}
+[1.429521] (vrpn) JobProgress: {'identifier': 'vrpn', 'progress': 'cmake'}
+[1.430806] (vrpn) JobProgress: {'identifier': 'vrpn', 'progress': 'build'}
+[1.432183] (vrpn) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rob/praktikum_ws/build/vrpn', '--', '-j1', '-l1'], 'cwd': '/home/rob/praktikum_ws/build/vrpn', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rob'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1291'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rob'), ('OLDPWD', '/home/rob/praktikum_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rob/praktikum_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rob'), ('JOURNAL_STREAM', '8:32885'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rob/praktikum_ws/install/vrpn/lib/x86_64-linux-gnu/pkgconfig:/home/rob/praktikum_ws/install/vrpn/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rob'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rob/praktikum_ws/install/vrpn/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rob-VirtualBox:@/tmp/.ICE-unix/1330,unix/rob-VirtualBox:/tmp/.ICE-unix/1330'), ('INVOCATION_ID', '6692e96cb720459fa50648f92ac4c914'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7a24607e_b5b5_449b_818d_8eb77f0a1411'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rob/praktikum_ws/install/robprakt:/home/rob/praktikum_ws/install/vrpn_client_ros:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rob/praktikum_ws/build/vrpn'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic')]), 'shell': False}
+[1.496918] (vrpn) StdoutLine: {'line': b'[  3%] Built target quat\n'}
+[1.498331] (-) TimerEvent: {}
+[1.520212] (vrpn) StdoutLine: {'line': b'[ 17%] Built target vrpn\n'}
+[1.546415] (vrpn) StdoutLine: {'line': b'[ 19%] Built target gpsnmea\n'}
+[1.566525] (vrpn) StdoutLine: {'line': b'[ 22%] Built target vrpn_atmel\n'}
+[1.598670] (-) TimerEvent: {}
+[1.606586] (vrpn) StdoutLine: {'line': b'[ 85%] Built target vrpnserver\n'}
+[1.625215] (vrpn) StdoutLine: {'line': b'[ 86%] Built target c_interface_example\n'}
+[1.645471] (vrpn) StdoutLine: {'line': b'[ 86%] Built target run_auxiliary_logger\n'}
+[1.664407] (vrpn) StdoutLine: {'line': b'[ 87%] Built target vrpn_print_devices\n'}
+[1.683539] (vrpn) StdoutLine: {'line': b'[ 88%] Built target vrpn_print_performance\n'}
+[1.701718] (vrpn) StdoutLine: {'line': b'[ 89%] Built target vrpn_print_messages\n'}
+[1.701877] (-) TimerEvent: {}
+[1.720601] (vrpn) StdoutLine: {'line': b'[ 89%] Built target vrpn_average_analogs\n'}
+[1.741236] (vrpn) StdoutLine: {'line': b'[ 90%] Built target vrpn_timecode_generator\n'}
+[1.764009] (vrpn) StdoutLine: {'line': b'[ 91%] Built target vrpn_server\n'}
+[1.784863] (vrpn) StdoutLine: {'line': b'[ 92%] Built target vrpn_streamPrint\n'}
+[1.803474] (-) TimerEvent: {}
+[1.839915] (vrpn) StdoutLine: {'line': b'[100%] Built target vrpn-python\n'}
+[1.855046] (vrpn) CommandEnded: {'returncode': 0}
+[1.913840] (-) TimerEvent: {}
+[2.025788] (-) TimerEvent: {}
+[2.128622] (-) TimerEvent: {}
+[2.149616] (vrpn) JobProgress: {'identifier': 'vrpn', 'progress': 'install'}
+[2.159730] (vrpn) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rob/praktikum_ws/build/vrpn'], 'cwd': '/home/rob/praktikum_ws/build/vrpn', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rob'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1291'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rob'), ('OLDPWD', '/home/rob/praktikum_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rob/praktikum_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rob'), ('JOURNAL_STREAM', '8:32885'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rob/praktikum_ws/install/vrpn/lib/x86_64-linux-gnu/pkgconfig:/home/rob/praktikum_ws/install/vrpn/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rob'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rob/praktikum_ws/install/vrpn/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rob-VirtualBox:@/tmp/.ICE-unix/1330,unix/rob-VirtualBox:/tmp/.ICE-unix/1330'), ('INVOCATION_ID', '6692e96cb720459fa50648f92ac4c914'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7a24607e_b5b5_449b_818d_8eb77f0a1411'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rob/praktikum_ws/install/robprakt:/home/rob/praktikum_ws/install/vrpn_client_ros:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rob/praktikum_ws/build/vrpn'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic')]), 'shell': False}
+[2.172424] (vrpn) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[2.172877] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/lib/libvrpnserver.a\n'}
+[2.173446] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Configure.h\n'}
+[2.173619] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Analog.h\n'}
+[2.173784] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Analog_Output.h\n'}
+[2.173946] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Assert.h\n'}
+[2.174105] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Auxiliary_Logger.h\n'}
+[2.174266] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_BaseClass.h\n'}
+[2.174424] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Button.h\n'}
+[2.174582] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Connection.h\n'}
+[2.174749] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_ConnectionPtr.h\n'}
+[2.174907] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Dial.h\n'}
+[2.175064] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_EndpointContainer.h\n'}
+[2.175237] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_FileConnection.h\n'}
+[2.175401] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_FileController.h\n'}
+[2.175563] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_ForceDevice.h\n'}
+[2.175724] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_ForwarderController.h\n'}
+[2.175884] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Forwarder.h\n'}
+[2.176044] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_FunctionGenerator.h\n'}
+[2.176218] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Imager.h\n'}
+[2.176375] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_LamportClock.h\n'}
+[2.176532] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Log.h\n'}
+[2.176693] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_MainloopContainer.h\n'}
+[2.176850] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_MainloopObject.h\n'}
+[2.177007] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Mutex.h\n'}
+[2.177164] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_OwningPtr.h\n'}
+[2.177320] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_RedundantTransmission.h\n'}
+[2.177476] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_SendTextMessageStreamProxy.h\n'}
+[2.177632] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Serial.h\n'}
+[2.177792] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_SerialPort.h\n'}
+[2.177948] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Shared.h\n'}
+[2.178106] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_SharedObject.h\n'}
+[2.178268] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Sound.h\n'}
+[2.178426] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Text.h\n'}
+[2.178581] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Thread.h\n'}
+[2.178736] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker.h\n'}
+[2.178892] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Types.h\n'}
+[2.179072] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_WindowsH.h\n'}
+[2.179232] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_3DConnexion.h\n'}
+[2.179558] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_3DMicroscribe.h\n'}
+[2.179655] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_3Space.h\n'}
+[2.179747] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_5DT16.h\n'}
+[2.179838] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Adafruit.h\n'}
+[2.180687] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_ADBox.h\n'}
+[2.180792] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Analog_5dt.h\n'}
+[2.180887] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Analog_5dtUSB.h\n'}
+[2.180978] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Analog_Radamec_SPI.h\n'}
+[2.181077] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Analog_USDigital_A2.h\n'}
+[2.181183] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Atmel.h\n'}
+[2.181278] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_BiosciencesTools.h\n'}
+[2.181374] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Button_NI_DIO24.h\n'}
+[2.181469] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Button_USB.h\n'}
+[2.181564] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_CerealBox.h\n'}
+[2.181659] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_CHProducts_Controller_Raw.h\n'}
+[2.181754] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Contour.h\n'}
+[2.181849] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_DevInput.h\n'}
+[2.181945] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_DirectXFFJoystick.h\n'}
+[2.182041] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_DirectXRumblePad.h\n'}
+[2.182136] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_DreamCheeky.h\n'}
+[2.182243] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Dyna.h\n'}
+[2.185632] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Event_Analog.h\n'}
+[2.186214] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Event.h\n'}
+[2.186321] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Event_Mouse.h\n'}
+[2.186417] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Flock.h\n'}
+[2.186511] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Flock_Parallel.h\n'}
+[2.186605] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_ForceDeviceServer.h\n'}
+[2.186699] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Freespace.h\n'}
+[2.186792] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_FunctionGenerator.h\n'}
+[2.186885] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Futaba.h\n'}
+[2.186977] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_GlobalHapticsOrb.h\n'}
+[2.187070] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Griffin.h\n'}
+[2.187162] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_HashST.h\n'}
+[2.187255] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_HumanInterface.h\n'}
+[2.187347] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_IDEA.h\n'}
+[2.187439] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Imager_Stream_Buffer.h\n'}
+[2.187533] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_ImmersionBox.h\n'}
+[2.187626] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_inertiamouse.h\n'}
+[2.187724] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_JoyFly.h\n'}
+[2.187818] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Joylin.h\n'}
+[2.187910] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Joywin32.h\n'}
+[2.188007] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Keyboard.h\n'}
+[2.188100] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Logitech_Controller_Raw.h\n'}
+[2.188193] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Laputa.h\n'}
+[2.188286] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_LUDL.h\n'}
+[2.188379] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Magellan.h\n'}
+[2.188472] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_MessageMacros.h\n'}
+[2.188565] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Microsoft_Controller_Raw.h\n'}
+[2.188658] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Mouse.h\n'}
+[2.188750] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_NationalInstruments.h\n'}
+[2.188843] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Nidaq.h\n'}
+[2.188935] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_nikon_controls.h\n'}
+[2.189028] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_nVidia_shield_controller.h\n'}
+[2.189121] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Oculus.h\n'}
+[2.189213] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_OmegaTemperature.h\n'}
+[2.189306] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_OneEuroFilter.h\n'}
+[2.189398] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_OzzMaker.h\n'}
+[2.189491] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Poser_Analog.h\n'}
+[2.189584] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Poser.h\n'}
+[2.189677] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Poser_Tek4662.h\n'}
+[2.189802] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_raw_sgibox.h\n'}
+[2.189896] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Retrolink.h\n'}
+[2.189989] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Saitek_Controller_Raw.h\n'}
+[2.190082] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_sgibox.h\n'}
+[2.190175] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Spaceball.h\n'}
+[2.190268] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Streaming_Arduino.h\n'}
+[2.190360] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tng3.h\n'}
+[2.190453] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_3DMouse.h\n'}
+[2.190545] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_AnalogFly.h\n'}
+[2.190638] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_ButtonFly.h\n'}
+[2.190730] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_Crossbow.h\n'}
+[2.190827] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_DTrack.h\n'}
+[2.190919] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_Fastrak.h\n'}
+[2.191012] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_Filter.h\n'}
+[2.191105] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_GameTrak.h\n'}
+[2.191197] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_GPS.h\n'}
+[2.191289] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_IMU.h\n'}
+[2.191382] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_isense.h\n'}
+[2.191475] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_Isotrak.h\n'}
+[2.191567] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_JsonNet.h\n'}
+[2.191660] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_Liberty.h\n'}
+[2.191752] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_MotionNode.h\n'}
+[2.191845] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_NDI_Polaris.h\n'}
+[2.191937] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_NovintFalcon.h\n'}
+[2.192030] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_OSVRHackerDevKit.h\n'}
+[2.192122] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_PDI.h\n'}
+[2.192215] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_PhaseSpace.h\n'}
+[2.192310] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_RazerHydra.h\n'}
+[2.192403] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_ThalmicLabsMyo.h\n'}
+[2.192496] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_SpacePoint.h\n'}
+[2.192588] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_Wintracker.h\n'}
+[2.192681] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_Colibri.h\n'}
+[2.192773] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_TrivisioColibri.h\n'}
+[2.192866] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_WiimoteHead.h\n'}
+[2.192958] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_zSight.h\n'}
+[2.193050] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_ViewPoint.h\n'}
+[2.193143] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_UNC_Joystick.h\n'}
+[2.193235] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_VPJoystick.h\n'}
+[2.193328] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Wanda.h\n'}
+[2.193420] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_WiiMote.h\n'}
+[2.193513] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_XInputGamepad.h\n'}
+[2.193606] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Xkeys.h\n'}
+[2.193698] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker_LibertyHS.h\n'}
+[2.205745] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_YEI_3Space.h\n'}
+[2.206190] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Zaber.h\n'}
+[2.206294] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Generic_server_object.h\n'}
+[2.206396] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/share/vrpn/package.xml\n'}
+[2.206488] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/share/vrpn/cmake/VRPNConfig.cmake\n'}
+[2.206579] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/share/quatlib/cmake/quatlibConfig.cmake\n'}
+[2.206675] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/lib/libvrpn.a\n'}
+[2.206766] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Configure.h\n'}
+[2.206867] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Analog.h\n'}
+[2.206961] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Analog_Output.h\n'}
+[2.207054] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Assert.h\n'}
+[2.207144] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Auxiliary_Logger.h\n'}
+[2.207237] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_BaseClass.h\n'}
+[2.207331] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Button.h\n'}
+[2.207421] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Connection.h\n'}
+[2.207511] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_ConnectionPtr.h\n'}
+[2.207601] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Dial.h\n'}
+[2.207694] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_EndpointContainer.h\n'}
+[2.207784] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_FileConnection.h\n'}
+[2.207877] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_FileController.h\n'}
+[2.207967] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_ForceDevice.h\n'}
+[2.208057] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_ForwarderController.h\n'}
+[2.208149] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Forwarder.h\n'}
+[2.208240] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_FunctionGenerator.h\n'}
+[2.208332] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Imager.h\n'}
+[2.208423] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_LamportClock.h\n'}
+[2.208516] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Log.h\n'}
+[2.208610] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_MainloopContainer.h\n'}
+[2.208700] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_MainloopObject.h\n'}
+[2.208790] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Mutex.h\n'}
+[2.208883] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_OwningPtr.h\n'}
+[2.208973] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_RedundantTransmission.h\n'}
+[2.209063] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_SendTextMessageStreamProxy.h\n'}
+[2.209161] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Serial.h\n'}
+[2.209270] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_SerialPort.h\n'}
+[2.209364] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Shared.h\n'}
+[2.209458] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_SharedObject.h\n'}
+[2.209553] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Sound.h\n'}
+[2.209647] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Text.h\n'}
+[2.209741] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Thread.h\n'}
+[2.209844] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Tracker.h\n'}
+[2.209944] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_Types.h\n'}
+[2.210040] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_WindowsH.h\n'}
+[2.210135] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/lib/libquat.a\n'}
+[2.210243] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/quat.h\n'}
+[2.210336] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/lib/libquat.a\n'}
+[2.210428] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/quat.h\n'}
+[2.210520] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/lib/libvrpn_atmel.a\n'}
+[2.210612] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_atmellib_errno.h\n'}
+[2.210704] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_atmellib.h\n'}
+[2.210795] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/lib/libgpsnmea.a\n'}
+[2.210914] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/nmeaParser.h\n'}
+[2.211008] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/utmCoord.h\n'}
+[2.211100] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/latLonCoord.h\n'}
+[2.211196] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/bin/c_interface_example\n'}
+[2.211292] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/bin/vrpn_average_analogs\n'}
+[2.211385] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/bin/vrpn_print_devices\n'}
+[2.211480] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/bin/vrpn_print_performance\n'}
+[2.211573] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/bin/vrpn_print_messages\n'}
+[2.211665] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/bin/run_auxiliary_logger\n'}
+[2.211757] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/bin/vrpn_server\n'}
+[2.211849] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/etc/vrpn.cfg\n'}
+[2.211949] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/share/vrpn-07.34/vrpn.cfg.sample\n'}
+[2.212041] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/lib/libvrpn_timecode_generator.a\n'}
+[2.212134] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/include/vrpn_timecode_generator.h\n'}
+[2.212226] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/bin/vrpn_streamPrint\n'}
+[2.212318] (vrpn) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn/lib/python3.8/dist-packages/vrpn.so\n'}
+[2.212426] (vrpn) CommandEnded: {'returncode': 0}
+[2.233992] (-) TimerEvent: {}
+[2.338661] (-) TimerEvent: {}
+[2.442426] (-) TimerEvent: {}
+[2.530804] (vrpn) JobEnded: {'identifier': 'vrpn', 'rc': 0}
+[2.531645] (vrpn_client_ros) JobStarted: {'identifier': 'vrpn_client_ros'}
+[2.548248] (-) TimerEvent: {}
+[2.548564] (vrpn_client_ros) JobProgress: {'identifier': 'vrpn_client_ros', 'progress': 'cmake'}
+[2.549485] (vrpn_client_ros) JobProgress: {'identifier': 'vrpn_client_ros', 'progress': 'build'}
+[2.549912] (vrpn_client_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rob/praktikum_ws/build/vrpn_client_ros', '--', '-j1', '-l1'], 'cwd': '/home/rob/praktikum_ws/build/vrpn_client_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rob'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1291'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rob'), ('OLDPWD', '/home/rob/praktikum_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rob/praktikum_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rob'), ('JOURNAL_STREAM', '8:32885'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rob/praktikum_ws/install/vrpn/lib/x86_64-linux-gnu/pkgconfig:/home/rob/praktikum_ws/install/vrpn/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rob'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rob/praktikum_ws/install/vrpn/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rob-VirtualBox:@/tmp/.ICE-unix/1330,unix/rob-VirtualBox:/tmp/.ICE-unix/1330'), ('INVOCATION_ID', '6692e96cb720459fa50648f92ac4c914'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7a24607e_b5b5_449b_818d_8eb77f0a1411'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rob/praktikum_ws/install/robprakt:/home/rob/praktikum_ws/install/vrpn_client_ros:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rob/praktikum_ws/build/vrpn_client_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic')]), 'shell': False}
+[2.626229] (vrpn_client_ros) StdoutLine: {'line': b'[ 42%] Built target vrpn_client_ros\n'}
+[2.650400] (-) TimerEvent: {}
+[2.654474] (vrpn_client_ros) StdoutLine: {'line': b'[ 71%] Built target vrpn_client_node\n'}
+[2.683035] (vrpn_client_ros) StdoutLine: {'line': b'[100%] Built target vrpn_tracker_node\n'}
+[2.694054] (vrpn_client_ros) CommandEnded: {'returncode': 0}
+[2.726099] (vrpn_client_ros) JobProgress: {'identifier': 'vrpn_client_ros', 'progress': 'install'}
+[2.726294] (vrpn_client_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rob/praktikum_ws/build/vrpn_client_ros'], 'cwd': '/home/rob/praktikum_ws/build/vrpn_client_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rob'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1291'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rob'), ('OLDPWD', '/home/rob/praktikum_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rob/praktikum_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rob'), ('JOURNAL_STREAM', '8:32885'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rob/praktikum_ws/install/vrpn/lib/x86_64-linux-gnu/pkgconfig:/home/rob/praktikum_ws/install/vrpn/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rob'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rob/praktikum_ws/install/vrpn/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rob-VirtualBox:@/tmp/.ICE-unix/1330,unix/rob-VirtualBox:/tmp/.ICE-unix/1330'), ('INVOCATION_ID', '6692e96cb720459fa50648f92ac4c914'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7a24607e_b5b5_449b_818d_8eb77f0a1411'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rob/praktikum_ws/install/robprakt:/home/rob/praktikum_ws/install/vrpn_client_ros:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rob/praktikum_ws/build/vrpn_client_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic')]), 'shell': False}
+[2.736404] (vrpn_client_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.736732] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch\n'}
+[2.736940] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch/sample.launch.py\n'}
+[2.737175] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config\n'}
+[2.737356] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/rob_optitrack.params.yaml\n'}
+[2.737519] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml~\n'}
+[2.737735] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/lib/libvrpn_client_ros.a\n'}
+[2.738176] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_tracker_node\n'}
+[2.738797] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_client_node\n'}
+[2.739250] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/ament_index/resource_index/package_run_dependencies/vrpn_client_ros\n'}
+[2.739481] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/ament_index/resource_index/parent_prefix_path/vrpn_client_ros\n'}
+[2.739706] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.sh\n'}
+[2.739921] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.dsv\n'}
+[2.740140] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.sh\n'}
+[2.740356] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.dsv\n'}
+[2.740566] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.bash\n'}
+[2.740776] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.sh\n'}
+[2.740986] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.zsh\n'}
+[2.741209] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.dsv\n'}
+[2.741421] (vrpn_client_ros) StdoutLine: {'line': b'-- Installing: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv\n'}
+[2.741754] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/ament_index/resource_index/packages/vrpn_client_ros\n'}
+[2.741981] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake\n'}
+[2.742149] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake\n'}
+[2.742364] (vrpn_client_ros) StdoutLine: {'line': b'-- Up-to-date: /home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.xml\n'}
+[2.747759] (vrpn_client_ros) CommandEnded: {'returncode': 0}
+[2.752039] (-) TimerEvent: {}
+[2.806695] (vrpn_client_ros) JobEnded: {'identifier': 'vrpn_client_ros', 'rc': 0}
+[2.807730] (-) EventReactorShutdown: {}

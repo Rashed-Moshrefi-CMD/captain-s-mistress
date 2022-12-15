@@ -1,0 +1,1 @@
+/home/praktikum4/praktikum_ws/build/pymoveit2/ament_cmake_core/pymoveit2Config-version.cmake

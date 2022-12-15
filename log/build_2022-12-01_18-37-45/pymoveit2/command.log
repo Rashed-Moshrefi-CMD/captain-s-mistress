@@ -1,0 +1,6 @@
+Invoking command in '/home/rob/praktikum_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/rob/praktikum_ws/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/rob/praktikum_ws/install/pymoveit2
+Invoked command in '/home/rob/praktikum_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/rob/praktikum_ws/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/rob/praktikum_ws/install/pymoveit2
+Invoking command in '/home/rob/praktikum_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/rob/praktikum_ws/build/pymoveit2 -- -j1 -l1
+Invoked command in '/home/rob/praktikum_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/rob/praktikum_ws/build/pymoveit2 -- -j1 -l1
+Invoking command in '/home/rob/praktikum_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/rob/praktikum_ws/build/pymoveit2
+Invoked command in '/home/rob/praktikum_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/rob/praktikum_ws/build/pymoveit2

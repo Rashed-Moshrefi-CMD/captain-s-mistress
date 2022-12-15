@@ -1,0 +1,1 @@
+/home/praktikum4/praktikum_ws/build/vrpn_client_ros/ament_cmake_core/vrpn_client_rosConfig.cmake

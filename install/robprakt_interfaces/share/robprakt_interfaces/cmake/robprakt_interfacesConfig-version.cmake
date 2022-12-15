@@ -1,0 +1,1 @@
+/home/praktikum4/praktikum_ws/build/robprakt_interfaces/ament_cmake_core/robprakt_interfacesConfig-version.cmake

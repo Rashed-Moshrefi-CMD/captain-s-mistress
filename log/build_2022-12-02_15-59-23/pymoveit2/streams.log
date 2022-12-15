@@ -1,0 +1,21 @@
+[0.022s] Invoking command in '/home/praktikum4/praktikum_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake /home/praktikum4/praktikum_ws/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/praktikum4/praktikum_ws/install/pymoveit2
+[0.153s] -- The C compiler identification is GNU 9.4.0
+[0.298s] -- The CXX compiler identification is GNU 9.4.0
+[0.305s] -- Check for working C compiler: /usr/bin/cc
+[0.352s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.353s] -- Detecting C compiler ABI info
+[0.401s] -- Detecting C compiler ABI info - done
+[0.407s] -- Detecting C compile features
+[0.408s] -- Detecting C compile features - done
+[0.409s] -- Check for working CXX compiler: /usr/bin/c++
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.463s] -- Detecting CXX compiler ABI info
+[0.516s] -- Detecting CXX compiler ABI info - done
+[0.523s] -- Detecting CXX compile features
+[0.523s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.554s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.554s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.717s] -- Configuring done
+[0.718s] -- Generating done
+[0.719s] -- Build files have been written to: /home/praktikum4/praktikum_ws/build/pymoveit2

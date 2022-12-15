@@ -1,0 +1,21 @@
+[0.876s] Invoking command in '/home/rob/praktikum_ws/src/robprakt': CMAKE_PREFIX_PATH=/home/rob/praktikum_ws/install/robprakt_interfaces:/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn PYTHONPATH=/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/home/rob/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages:/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/rob/praktikum_ws/build/robprakt/build install --prefix /home/rob/praktikum_ws/install/robprakt --record /home/rob/praktikum_ws/build/robprakt/install.log --single-version-externally-managed
+[1.207s] running egg_info
+[1.208s] writing ../../build/robprakt/robprakt.egg-info/PKG-INFO
+[1.209s] writing dependency_links to ../../build/robprakt/robprakt.egg-info/dependency_links.txt
+[1.209s] writing entry points to ../../build/robprakt/robprakt.egg-info/entry_points.txt
+[1.209s] writing requirements to ../../build/robprakt/robprakt.egg-info/requires.txt
+[1.210s] writing top-level names to ../../build/robprakt/robprakt.egg-info/top_level.txt
+[1.271s] reading manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+[1.272s] writing manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+[1.272s] running build
+[1.272s] running build_py
+[1.273s] running install
+[1.274s] running install_lib
+[1.276s] running install_data
+[1.276s] running install_egg_info
+[1.278s] removing '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info' (and everything under it)
+[1.279s] Copying ../../build/robprakt/robprakt.egg-info to /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info
+[1.280s] running install_scripts
+[1.300s] Installing vacuum_control script to /home/rob/praktikum_ws/install/robprakt/lib/robprakt
+[1.301s] writing list of installed files to '/home/rob/praktikum_ws/build/robprakt/install.log'
+[1.325s] Invoked command in '/home/rob/praktikum_ws/src/robprakt' returned '0': CMAKE_PREFIX_PATH=/home/rob/praktikum_ws/install/robprakt_interfaces:/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn PYTHONPATH=/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/home/rob/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages:/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/rob/praktikum_ws/build/robprakt/build install --prefix /home/rob/praktikum_ws/install/robprakt --record /home/rob/praktikum_ws/build/robprakt/install.log --single-version-externally-managed

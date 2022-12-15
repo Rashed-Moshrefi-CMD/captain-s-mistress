@@ -1,0 +1,21 @@
+[0.032s] Invoking command in '/home/praktikum4/praktikum_ws/build/robprakt_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/robprakt_interfaces -- -j12 -l12
+[0.072s] [  3%] Built target robprakt_interfaces__cpp
+[0.072s] [ 12%] Built target robprakt_interfaces__rosidl_generator_c
+[0.093s] [ 29%] Built target robprakt_interfaces__rosidl_typesupport_c
+[0.093s] [ 32%] Built target robprakt_interfaces__rosidl_typesupport_cpp
+[0.094s] [ 35%] [32m[1mLinking CXX shared library librobprakt_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.103s] [ 45%] Built target robprakt_interfaces__rosidl_typesupport_introspection_c
+[0.103s] [ 54%] Built target robprakt_interfaces__rosidl_typesupport_introspection_cpp
+[0.177s] [ 61%] Built target robprakt_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.198s] [ 64%] [32m[1mLinking CXX shared library librobprakt_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[0.261s] [ 70%] Built target robprakt_interfaces__rosidl_typesupport_fastrtps_c
+[0.278s] [ 70%] Built target robprakt_interfaces
+[0.293s] [ 74%] Built target robprakt_interfaces__py
+[0.312s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/robprakt_interfaces/librobprakt_interfaces__python.so[0m
+[0.342s] [ 80%] Built target robprakt_interfaces__python
+[0.363s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.363s] [ 90%] [32m[1mLinking CXX shared library rosidl_generator_py/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.363s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.389s] [ 93%] Built target robprakt_interfaces__rosidl_typesupport_c__pyext
+[0.390s] [ 96%] Built target robprakt_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.405s] [100%] Built target robprakt_interfaces__rosidl_typesupport_fastrtps_c__pyext

@@ -1,0 +1,5 @@
+[ 42%] Built target vrpn_client_ros
+[ 57%] [32m[1mLinking CXX executable vrpn_client_node[0m
+[ 71%] [32m[1mLinking CXX executable vrpn_tracker_node[0m
+[100%] Built target vrpn_client_node
+[100%] Built target vrpn_tracker_node

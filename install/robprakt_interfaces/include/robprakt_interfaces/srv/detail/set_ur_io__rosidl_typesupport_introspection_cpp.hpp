@@ -1,0 +1,1 @@
+/home/praktikum4/praktikum_ws/build/robprakt_interfaces/rosidl_typesupport_introspection_cpp/robprakt_interfaces/srv/detail/set_ur_io__rosidl_typesupport_introspection_cpp.hpp

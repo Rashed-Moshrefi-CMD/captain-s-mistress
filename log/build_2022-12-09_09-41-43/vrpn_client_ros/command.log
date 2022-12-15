@@ -1,0 +1,1 @@
+Invoking command in '/home/praktikum4/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/vrpn_client_ros -- -j12 -l12

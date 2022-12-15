@@ -1,0 +1,21 @@
+[0.913s] Invoking command in '/home/rob/praktikum_ws/src/robprakt': PYTHONPATH=/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/rob/praktikum_ws/build/robprakt/build install --prefix /home/rob/praktikum_ws/install/robprakt --record /home/rob/praktikum_ws/build/robprakt/install.log --single-version-externally-managed
+[1.238s] running egg_info
+[1.239s] writing ../../build/robprakt/robprakt.egg-info/PKG-INFO
+[1.240s] writing dependency_links to ../../build/robprakt/robprakt.egg-info/dependency_links.txt
+[1.240s] writing entry points to ../../build/robprakt/robprakt.egg-info/entry_points.txt
+[1.240s] writing requirements to ../../build/robprakt/robprakt.egg-info/requires.txt
+[1.241s] writing top-level names to ../../build/robprakt/robprakt.egg-info/top_level.txt
+[1.303s] reading manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+[1.305s] writing manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+[1.305s] running build
+[1.305s] running build_py
+[1.306s] running install
+[1.307s] running install_lib
+[1.309s] running install_data
+[1.310s] running install_egg_info
+[1.312s] removing '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info' (and everything under it)
+[1.312s] Copying ../../build/robprakt/robprakt.egg-info to /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info
+[1.313s] running install_scripts
+[1.338s] Installing service script to /home/rob/praktikum_ws/install/robprakt/lib/robprakt
+[1.339s] writing list of installed files to '/home/rob/praktikum_ws/build/robprakt/install.log'
+[1.360s] Invoked command in '/home/rob/praktikum_ws/src/robprakt' returned '0': PYTHONPATH=/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/rob/praktikum_ws/build/robprakt/build install --prefix /home/rob/praktikum_ws/install/robprakt --record /home/rob/praktikum_ws/build/robprakt/install.log --single-version-externally-managed

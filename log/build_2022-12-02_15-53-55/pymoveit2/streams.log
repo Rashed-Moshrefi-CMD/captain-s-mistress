@@ -1,0 +1,6 @@
+[0.021s] Invoking command in '/home/praktikum4/praktikum_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/pymoveit2 -- -j12 -l12
+[0.027s] CMake Error: The current CMakeCache.txt directory /home/praktikum4/praktikum_ws/build/pymoveit2/CMakeCache.txt is different than the directory /home/rob/praktikum_ws/build/pymoveit2 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.033s] CMake Error: The source directory "/home/rob/praktikum_ws/src/pymoveit2" does not exist.
+[0.033s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.034s] make: *** [Makefile:250: cmake_check_build_system] Error 1
+[0.036s] Invoked command in '/home/praktikum4/praktikum_ws/build/pymoveit2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/pymoveit2 -- -j12 -l12

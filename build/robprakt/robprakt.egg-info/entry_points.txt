@@ -1,0 +1,3 @@
+[console_scripts]
+vacuum_control = robprakt.vacuum_control:main
+

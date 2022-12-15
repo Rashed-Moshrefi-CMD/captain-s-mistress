@@ -1,0 +1,16 @@
+[0.022s] Invoking command in '/home/praktikum4/praktikum_ws/build/vrpn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/vrpn -- -j12 -l12
+[0.068s] [  3%] Built target vrpn_atmel
+[0.069s] [  5%] Built target gpsnmea
+[0.070s] [  7%] Built target vrpn_timecode_generator
+[0.070s] [  9%] Built target quat
+[0.096s] [ 23%] Built target vrpn
+[0.109s] [ 86%] Built target vrpnserver
+[0.115s] [ 87%] Built target c_interface_example
+[0.118s] [ 88%] Built target vrpn_print_devices
+[0.119s] [ 88%] Built target run_auxiliary_logger
+[0.119s] [ 89%] Built target vrpn_print_performance
+[0.121s] [ 90%] Built target vrpn_streamPrint
+[0.127s] [ 91%] Built target vrpn_print_messages
+[0.127s] [ 91%] Built target vrpn_average_analogs
+[0.134s] [ 92%] Built target vrpn_server
+[0.145s] [100%] Built target vrpn-python

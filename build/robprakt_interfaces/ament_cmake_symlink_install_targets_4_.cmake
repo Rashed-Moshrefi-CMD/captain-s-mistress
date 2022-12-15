@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/praktikum4/praktikum_ws/build/robprakt_interfaces/rosidl_generator_py/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "robprakt_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/robprakt_interfaces")

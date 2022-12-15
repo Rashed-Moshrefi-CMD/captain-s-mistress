@@ -1,0 +1,1 @@
+/home/praktikum4/praktikum_ws/build/vrpn_client_ros/ament_cmake_environment_hooks/local_setup.zsh

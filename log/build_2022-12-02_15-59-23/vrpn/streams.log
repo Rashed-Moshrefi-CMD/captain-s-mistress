@@ -1,0 +1,176 @@
+[0.017s] Invoking command in '/home/praktikum4/praktikum_ws/build/vrpn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake /home/praktikum4/praktikum_ws/src/vrpn-release -DCMAKE_INSTALL_PREFIX=/home/praktikum4/praktikum_ws/install/vrpn
+[0.148s] -- The C compiler identification is GNU 9.4.0
+[0.294s] -- The CXX compiler identification is GNU 9.4.0
+[0.299s] -- Check for working C compiler: /usr/bin/cc
+[0.346s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.347s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.402s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.405s] -- Check for working CXX compiler: /usr/bin/c++
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.457s] -- Detecting CXX compiler ABI info
+[0.509s] -- Detecting CXX compiler ABI info - done
+[0.518s] -- Detecting CXX compile features
+[0.519s] -- Detecting CXX compile features - done
+[0.594s] -- Configuring the VRPN suite version 07.34 using the CMake-based build system
+[0.594s] 
+[0.594s] CMake Warning (dev) at CMakeLists.txt:160 (option):
+[0.594s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.595s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.595s]   set the policy and suppress this warning.
+[0.595s] 
+[0.595s]   For compatibility with older versions of CMake, option is clearing the
+[0.595s]   normal variable 'VRPN_BUILD_CLIENT_LIBRARY'.
+[0.595s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.595s] 
+[0.595s] CMake Warning (dev) at CMakeLists.txt:163 (option):
+[0.595s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.595s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.595s]   set the policy and suppress this warning.
+[0.595s] 
+[0.595s]   For compatibility with older versions of CMake, option is clearing the
+[0.595s]   normal variable 'VRPN_BUILD_SERVER_LIBRARY'.
+[0.595s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.595s] 
+[0.595s] CMake Warning (dev) at CMakeLists.txt:168 (option):
+[0.595s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.595s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.595s]   set the policy and suppress this warning.
+[0.595s] 
+[0.595s]   For compatibility with older versions of CMake, option is clearing the
+[0.596s]   normal variable 'VRPN_BUILD_CLIENTS'.
+[0.596s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.596s] 
+[0.596s] CMake Warning (dev) at CMakeLists.txt:169 (option):
+[0.596s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.596s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.596s]   set the policy and suppress this warning.
+[0.596s] 
+[0.596s]   For compatibility with older versions of CMake, option is clearing the
+[0.596s]   normal variable 'VRPN_BUILD_SERVERS'.
+[0.596s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.596s] 
+[0.597s] -- Looking for pthread.h
+[0.646s] -- Looking for pthread.h - found
+[0.647s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.694s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.694s] -- Looking for pthread_create in pthreads
+[0.733s] -- Looking for pthread_create in pthreads - not found
+[0.733s] -- Looking for pthread_create in pthread
+[0.778s] -- Looking for pthread_create in pthread - found
+[0.779s] -- Found Threads: TRUE  
+[0.779s] -- Now searching for auto-configurable optional packages...
+[0.779s] 
+[0.782s] -- Checking for module 'libusb-1.0'
+[0.784s] --   No package 'libusb-1.0' found
+[0.794s] -- Could NOT find Libusb1 (missing: LIBUSB1_LIBRARY LIBUSB1_INCLUDE_DIR) 
+[0.799s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[0.811s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+[0.811s] CMake Warning (dev) at cmake/OptionRequires.cmake:46 (option):
+[0.811s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.811s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.811s]   set the policy and suppress this warning.
+[0.811s] 
+[0.811s]   For compatibility with older versions of CMake, option is clearing the
+[0.811s]   normal variable 'VRPN_BUILD_PYTHON'.
+[0.811s] Call Stack (most recent call first):
+[0.811s]   CMakeLists.txt:345 (option_requires)
+[0.811s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.811s] 
+[0.815s] -- Could NOT find Java (missing: Java_JAVA_EXECUTABLE Java_JAVAC_EXECUTABLE Java_JAR_EXECUTABLE Java_JAVADOC_EXECUTABLE Java_JAVAH_EXECUTABLE Development) 
+[0.821s] -- Could NOT find JNI (missing: JAVA_AWT_LIBRARY JAVA_JVM_LIBRARY JAVA_INCLUDE_PATH JAVA_INCLUDE_PATH2 JAVA_AWT_INCLUDE_PATH) 
+[0.822s] CMake Warning (dev) at cmake/OptionRequires.cmake:46 (option):
+[0.822s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.822s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.822s]   set the policy and suppress this warning.
+[0.822s] 
+[0.822s]   For compatibility with older versions of CMake, option is clearing the
+[0.822s]   normal variable 'VRPN_BUILD_JAVA'.
+[0.822s] Call Stack (most recent call first):
+[0.822s]   CMakeLists.txt:374 (option_requires)
+[0.822s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.822s] 
+[0.932s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so (found version "3.1") 
+[1.554s] -- Found MPI_CXX: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so (found version "3.1") 
+[1.554s] -- Found MPI: TRUE (found version "3.1")  
+[1.559s] -- Could NOT find Modbus (missing: MODBUS_LIBRARY MODBUS_INCLUDE_DIR) 
+[1.562s] -- Checking for module 'libusb-1.0'
+[1.564s] --   No package 'libusb-1.0' found
+[1.567s] -- Could NOT find Libusb1 (missing: LIBUSB1_LIBRARY LIBUSB1_INCLUDE_DIR) 
+[1.584s] -- Could NOT find OpenHaptics (missing: HDAPI_LIBRARY HDAPI_INCLUDE_DIR HDAPI_HDU_INCLUDE_DIR HDAPI_HDU_LIBRARY HLAPI_INCLUDE_DIR HLAPI_LIBRARY HLAPI_HLU_INCLUDE_DIR HLAPI_HLU_LIBRARY HDAPI_PHANToMIO_LIBRARY HDAPI_HDU_SOURCE_DIR HLAPI_HLU_SOURCE_DIR) 
+[1.586s] -- Could NOT find GHOST (missing: GHOST_LIBRARY GHOST_INCLUDE_DIR) 
+[1.588s] -- Found I2CDEV: /usr/include  
+[1.590s] -- Could NOT find WiiUse (missing: WIIUSE_LIBRARY WIIUSE_INCLUDE_DIR) 
+[1.595s] -- Could NOT find LibNifalcon (missing: LIBNIFALCON_LIBRARY LIBNIFALCON_INCLUDE_DIR LIBNIFALCON_LIBUSB1_LIBRARY LIBNIFALCON_LIBUSB1_INCLUDE_DIR) 
+[1.597s] -- Could NOT find GPM (missing: GPM_LIBRARY GPM_INCLUDE_DIR) 
+[1.600s] -- Could NOT find InterSense (missing: INTERSENSE_LIBRARY INTERSENSE_INCLUDE_DIR) 
+[1.601s] -- Could NOT find NIDAQmx (missing: NIDAQMX_LIBRARY NIDAQMX_INCLUDE_DIR) 
+[1.604s] -- Could NOT find ViewPoint (missing: VIEWPOINT_LIBRARY VIEWPOINT_INCLUDE_DIR) 
+[1.604s] -- Looking for C++ include linux/joystick.h
+[1.669s] -- Looking for C++ include linux/joystick.h - found
+[1.670s] -- Looking for C++ include linux/input.h
+[1.767s] -- Looking for C++ include linux/input.h - found
+[1.773s] -- Found Perl: /usr/bin/perl (found version "5.30.0") 
+[1.773s] -- Checking for perl module Parse::RecDescent
+[1.775s] -- Checking for perl module Parse::RecDescent - failed
+[1.775s] -- Could NOT find PerlModules (missing: PERLMODULES_PARSE_RECDESCENT_MODULE) 
+[1.779s] -- Could NOT find LibFreespace (missing: LIBFREESPACE_LIBRARY LIBFREESPACE_INCLUDE_DIR) 
+[1.782s] -- Found quatlib: quat  
+[1.784s] -- Could NOT find ColibriApi (missing: COLIBRIAPI_LIBRARY COLIBRIAPI_INCLUDE_DIR) 
+[1.795s] -- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+[1.800s] CMake Warning (dev) at /usr/share/cmake-3.16/Modules/FindOpenGL.cmake:275 (message):
+[1.800s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[1.800s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[1.800s]   cmake_policy command to set the policy and suppress this warning.
+[1.800s] 
+[1.800s]   FindOpenGL found both a legacy GL library:
+[1.800s] 
+[1.800s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[1.800s] 
+[1.800s]   and GLVND libraries for OpenGL and GLX:
+[1.800s] 
+[1.800s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[1.800s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[1.800s] 
+[1.800s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[1.800s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[1.801s] Call Stack (most recent call first):
+[1.801s]   client_src/CMakeLists.txt:26 (find_package)
+[1.801s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.801s] 
+[1.801s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.803s] CMake Warning (dev) at /usr/share/cmake-3.16/Modules/FindOpenGL.cmake:275 (message):
+[1.803s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[1.803s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[1.803s]   cmake_policy command to set the policy and suppress this warning.
+[1.803s] 
+[1.803s]   FindOpenGL found both a legacy GL library:
+[1.803s] 
+[1.803s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[1.803s] 
+[1.803s]   and GLVND libraries for OpenGL and GLX:
+[1.803s] 
+[1.803s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[1.803s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[1.803s] 
+[1.803s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[1.803s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[1.803s] Call Stack (most recent call first):
+[1.803s]   server_src/CMakeLists.txt:27 (find_package)
+[1.803s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.803s] 
+[1.817s] -- Dashboard scripts have been generated for automatic nightly and continuous builds.
+[1.817s] -- You can add these sample lines to your crontab:
+[1.818s] -- 
+[1.818s] 
+[1.818s] 15 0 * * * "/usr/bin/ctest" -S "/home/praktikum4/praktikum_ws/build/vrpn/Dashboards-henry-praktikum4/runNightly.cmake" 
+[1.818s] 15 * * * * "/usr/bin/ctest" -S "/home/praktikum4/praktikum_ws/build/vrpn/Dashboards-henry-praktikum4/runContinuous.cmake" 
+[1.818s] 
+[1.818s] or run this command for an one-off experimental test build:
+[1.818s] "/usr/bin/ctest" -S "/home/praktikum4/praktikum_ws/build/vrpn/Dashboards-henry-praktikum4/runExperimental.cmake" -VV
+[1.818s] 
+[1.818s] -- 
+[1.831s] -- Configuring done
+[1.859s] -- Generating done
+[1.861s] -- Build files have been written to: /home/praktikum4/praktikum_ws/build/vrpn

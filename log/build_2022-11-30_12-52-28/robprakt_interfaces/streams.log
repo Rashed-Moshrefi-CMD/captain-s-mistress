@@ -1,0 +1,53 @@
+[0.016s] Invoking command in '/home/rob/praktikum_ws/build/robprakt_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake /home/rob/praktikum_ws/src/robprakt_interfaces -DCMAKE_INSTALL_PREFIX=/home/rob/praktikum_ws/install/robprakt_interfaces
+[0.047s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.075s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.075s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.163s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.448s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.705s] CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.705s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.706s]   robprakt_interfaces --arguments-file
+[0.706s]   /home/rob/praktikum_ws/build/robprakt_interfaces/rosidl_adapter__arguments__robprakt_interfaces.json
+[0.706s]   --output-dir
+[0.706s]   /home/rob/praktikum_ws/build/robprakt_interfaces/rosidl_adapter/robprakt_interfaces
+[0.706s]   --output-file
+[0.706s]   /home/rob/praktikum_ws/build/robprakt_interfaces/rosidl_adapter/robprakt_interfaces.idls)
+[0.706s]   returned error code 1:
+[0.706s] 
+[0.707s]   Traceback (most recent call last):
+[0.707s] 
+[0.707s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.707s]       return _run_code(code, main_globals, None,
+[0.707s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.707s]       exec(code, run_globals)
+[0.707s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.707s]       sys.exit(main())
+[0.707s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.708s]       abs_idl_file = convert_to_idl(
+[0.708s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.708s]       return convert_srv_to_idl(
+[0.711s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.712s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.712s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string
+[0.712s]       request_message = parse_message_string(
+[0.712s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[0.712s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.712s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[0.712s]       self.base_type = BaseType(
+[0.712s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.712s]       raise InvalidResourceName(
+[0.713s] 
+[0.713s]   rosidl_adapter.parser.InvalidResourceName: 'seturio_Request' is an invalid
+[0.713s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.713s] 
+[0.713s] Call Stack (most recent call first):
+[0.713s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.713s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.713s] 
+[0.713s] 
+[0.714s] -- Configuring incomplete, errors occurred!
+[0.714s] See also "/home/rob/praktikum_ws/build/robprakt_interfaces/CMakeFiles/CMakeOutput.log".
+[0.722s] Invoked command in '/home/rob/praktikum_ws/build/robprakt_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake /home/rob/praktikum_ws/src/robprakt_interfaces -DCMAKE_INSTALL_PREFIX=/home/rob/praktikum_ws/install/robprakt_interfaces

@@ -1,0 +1,14 @@
+[0.026s] Invoking command in '/home/praktikum4/praktikum_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake /home/praktikum4/praktikum_ws/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/praktikum4/praktikum_ws/install/pymoveit2
+[0.035s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.201s] -- Configuring done
+[0.202s] -- Generating done
+[0.203s] -- Build files have been written to: /home/praktikum4/praktikum_ws/build/pymoveit2
+[0.204s] Invoked command in '/home/praktikum4/praktikum_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake /home/praktikum4/praktikum_ws/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/praktikum4/praktikum_ws/install/pymoveit2
+[0.206s] Invoking command in '/home/praktikum4/praktikum_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/pymoveit2 -- -j12 -l12
+[0.244s] failed to create symbolic link '/home/praktikum4/praktikum_ws/build/pymoveit2/ament_cmake_python/pymoveit2/pymoveit2' because existing path cannot be removed: Is a directory
+[0.244s] make[2]: *** [CMakeFiles/ament_cmake_python_symlink_pymoveit2.dir/build.make:57: CMakeFiles/ament_cmake_python_symlink_pymoveit2] Error 1
+[0.244s] make[1]: *** [CMakeFiles/Makefile2:106: CMakeFiles/ament_cmake_python_symlink_pymoveit2.dir/all] Error 2
+[0.245s] make: *** [Makefile:141: all] Error 2
+[0.246s] Invoked command in '/home/praktikum4/praktikum_ws/build/pymoveit2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/pymoveit2 -- -j12 -l12

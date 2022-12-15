@@ -1,0 +1,24 @@
+[0.962s] Invoking command in '/home/rob/praktikum_ws/src/robprakt': PYTHONPATH=/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/rob/praktikum_ws/build/robprakt/build install --prefix /home/rob/praktikum_ws/install/robprakt --record /home/rob/praktikum_ws/build/robprakt/install.log --single-version-externally-managed
+[1.272s] running egg_info
+[1.273s] writing ../../build/robprakt/robprakt.egg-info/PKG-INFO
+[1.286s] writing dependency_links to ../../build/robprakt/robprakt.egg-info/dependency_links.txt
+[1.287s] writing entry points to ../../build/robprakt/robprakt.egg-info/entry_points.txt
+[1.287s] writing requirements to ../../build/robprakt/robprakt.egg-info/requires.txt
+[1.288s] writing top-level names to ../../build/robprakt/robprakt.egg-info/top_level.txt
+[1.354s] reading manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+[1.356s] writing manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+[1.356s] running build
+[1.356s] running build_py
+[1.356s] copying robprakt/vacuum_control.py -> /home/rob/praktikum_ws/build/robprakt/build/lib/robprakt
+[1.357s] running install
+[1.358s] running install_lib
+[1.359s] copying /home/rob/praktikum_ws/build/robprakt/build/lib/robprakt/vacuum_control.py -> /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt
+[1.360s] byte-compiling /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt/vacuum_control.py to vacuum_control.cpython-38.pyc
+[1.362s] running install_data
+[1.363s] running install_egg_info
+[1.365s] removing '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info' (and everything under it)
+[1.366s] Copying ../../build/robprakt/robprakt.egg-info to /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info
+[1.367s] running install_scripts
+[1.392s] Installing service script to /home/rob/praktikum_ws/install/robprakt/lib/robprakt
+[1.392s] writing list of installed files to '/home/rob/praktikum_ws/build/robprakt/install.log'
+[1.419s] Invoked command in '/home/rob/praktikum_ws/src/robprakt' returned '0': PYTHONPATH=/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/rob/praktikum_ws/build/robprakt/build install --prefix /home/rob/praktikum_ws/install/robprakt --record /home/rob/praktikum_ws/build/robprakt/install.log --single-version-externally-managed

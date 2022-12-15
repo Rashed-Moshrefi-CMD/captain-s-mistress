@@ -1,0 +1,62 @@
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:2[m[K:
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[Kvoid vrpn_PeerMutex::init(const char*)[m[K’ at [01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:1393:12[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound depends on the length of the source argument [[01;35m[K-Wstringop-overflow=[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:[m[K In member function ‘[01m[Kvoid vrpn_PeerMutex::init(const char*)[m[K’:
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:1393:12:[m[K [01;36m[Knote: [m[Klength computed here
+ 1393 |     [01;36m[Kstrncpy(d_mutexName, name, strlen(name))[m[K;
+      |     [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:2[m[K:
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[Kvoid vrpn_PeerMutex::init(const char*)[m[K’ at [01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:1393:12[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound depends on the length of the source argument [[01;35m[K-Wstringop-overflow=[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:[m[K In member function ‘[01m[Kvoid vrpn_PeerMutex::init(const char*)[m[K’:
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:1393:12:[m[K [01;36m[Knote: [m[Klength computed here
+ 1393 |     [01;36m[Kstrncpy(d_mutexName, name, strlen(name))[m[K;
+      |     [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:[m[K In member function ‘[01m[Kvoid vrpn_Poser_Tek4662::reset()[m[K’:
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:180:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+  180 |   vrpn_write_characters( d_serial_fd, GIN, strlen([01;35m[K(const char*)GIN[m[K) );
+      |                                                   [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+   42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+      |                     [01;36m[K^~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:[m[K In member function ‘[01m[Kvoid vrpn_Poser_Tek4662::run()[m[K’:
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:256:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+  256 |     vrpn_write_characters(d_serial_fd, GIN, strlen([01;35m[K(const char*)GIN[m[K) );
+      |                                                    [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+   42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+      |                     [01;36m[K^~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:341:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+  341 |       vrpn_write_characters(d_serial_fd, GIN, strlen([01;35m[K(const char*)GIN[m[K) );
+      |                                                      [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+   42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+      |                     [01;36m[K^~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:[m[K In member function ‘[01m[Kvoid vrpn_Poser_Tek4662::reset()[m[K’:
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:180:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+  180 |   vrpn_write_characters( d_serial_fd, GIN, strlen((const char*)[01;35m[KGIN[m[K) );
+      |                                                                [01;35m[K^~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+   42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+      |                     [01;36m[K^~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:[m[K In member function ‘[01m[Kvoid vrpn_Poser_Tek4662::run()[m[K’:
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:256:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+  256 |     vrpn_write_characters(d_serial_fd, GIN, strlen((const char*)[01;35m[KGIN[m[K) );
+      |                                                                 [01;35m[K^~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+   42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+      |                     [01;36m[K^~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:341:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+  341 |       vrpn_write_characters(d_serial_fd, GIN, strlen((const char*)[01;35m[KGIN[m[K) );
+      |                                                                   [01;35m[K^~~[m[K
+[01m[K/home/praktikum4/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+   42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+      |                     [01;36m[K^~~[m[K

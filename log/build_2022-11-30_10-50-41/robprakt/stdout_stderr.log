@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robprakt/robprakt.egg-info
+writing ../../build/robprakt/robprakt.egg-info/PKG-INFO
+writing dependency_links to ../../build/robprakt/robprakt.egg-info/dependency_links.txt
+writing entry points to ../../build/robprakt/robprakt.egg-info/entry_points.txt
+writing requirements to ../../build/robprakt/robprakt.egg-info/requires.txt
+writing top-level names to ../../build/robprakt/robprakt.egg-info/top_level.txt
+writing manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+reading manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+writing manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rob/praktikum_ws/build/robprakt/build
+creating /home/rob/praktikum_ws/build/robprakt/build/lib
+creating /home/rob/praktikum_ws/build/robprakt/build/lib/robprakt
+copying robprakt/__init__.py -> /home/rob/praktikum_ws/build/robprakt/build/lib/robprakt
+copying robprakt/vacuum.py -> /home/rob/praktikum_ws/build/robprakt/build/lib/robprakt
+running install
+running install_lib
+creating /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt
+copying /home/rob/praktikum_ws/build/robprakt/build/lib/robprakt/__init__.py -> /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt
+copying /home/rob/praktikum_ws/build/robprakt/build/lib/robprakt/vacuum.py -> /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt
+byte-compiling /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt/vacuum.py to vacuum.cpython-38.pyc
+running install_data
+creating /home/rob/praktikum_ws/install/robprakt/share/ament_index
+creating /home/rob/praktikum_ws/install/robprakt/share/ament_index/resource_index
+creating /home/rob/praktikum_ws/install/robprakt/share/ament_index/resource_index/packages
+copying resource/robprakt -> /home/rob/praktikum_ws/install/robprakt/share/ament_index/resource_index/packages
+copying package.xml -> /home/rob/praktikum_ws/install/robprakt/share/robprakt
+running install_egg_info
+Copying ../../build/robprakt/robprakt.egg-info to /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info
+running install_scripts
+Installing vacuum script to /home/rob/praktikum_ws/install/robprakt/lib/robprakt
+writing list of installed files to '/home/rob/praktikum_ws/build/robprakt/install.log'

@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000343] (robprakt) JobQueued: {'identifier': 'robprakt', 'dependencies': OrderedDict()}
+[0.000385] (robprakt_interfaces) JobQueued: {'identifier': 'robprakt_interfaces', 'dependencies': OrderedDict()}
+[0.000430] (vrpn) JobQueued: {'identifier': 'vrpn', 'dependencies': OrderedDict()}
+[0.000464] (vrpn_client_ros) JobQueued: {'identifier': 'vrpn_client_ros', 'dependencies': OrderedDict()}
+[0.000493] (robprakt) JobStarted: {'identifier': 'robprakt'}
+[0.095949] (-) TimerEvent: {}
+[0.207929] (-) TimerEvent: {}
+[0.319991] (-) TimerEvent: {}
+[0.432334] (-) TimerEvent: {}
+[0.543958] (-) TimerEvent: {}
+[0.656039] (-) TimerEvent: {}
+[0.768103] (-) TimerEvent: {}
+[0.860982] (robprakt) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robprakt', 'build', '--build-base', '/home/rob/praktikum_ws/build/robprakt/build', 'install', '--prefix', '/home/rob/praktikum_ws/install/robprakt', '--record', '/home/rob/praktikum_ws/build/robprakt/install.log', '--single-version-externally-managed'], 'cwd': '/home/rob/praktikum_ws/src/robprakt', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rob', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '1291', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/rob', 'OLDPWD': '/home/rob/praktikum_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1039', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rob/praktikum_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'rob', 'JOURNAL_STREAM': '8:32885', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/rob/praktikum_ws/install/vrpn/lib/x86_64-linux-gnu/pkgconfig:/home/rob/praktikum_ws/install/vrpn/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rob', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/rob/praktikum_ws/install/vrpn/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rob-VirtualBox:@/tmp/.ICE-unix/1330,unix/rob-VirtualBox:/tmp/.ICE-unix/1330', 'INVOCATION_ID': '6692e96cb720459fa50648f92ac4c914', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7a24607e_b5b5_449b_818d_8eb77f0a1411', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.80', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rob/praktikum_ws/install/robprakt:/home/rob/praktikum_ws/install/vrpn_client_ros:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rob/praktikum_ws/build/robprakt', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn'}, 'shell': False}
+[0.880128] (-) TimerEvent: {}
+[0.992158] (-) TimerEvent: {}
+[1.102517] (-) TimerEvent: {}
+[1.157012] (robprakt) StdoutLine: {'line': b'running egg_info\n'}
+[1.158238] (robprakt) StdoutLine: {'line': b'writing ../../build/robprakt/robprakt.egg-info/PKG-INFO\n'}
+[1.158783] (robprakt) StdoutLine: {'line': b'writing dependency_links to ../../build/robprakt/robprakt.egg-info/dependency_links.txt\n'}
+[1.159149] (robprakt) StdoutLine: {'line': b'writing entry points to ../../build/robprakt/robprakt.egg-info/entry_points.txt\n'}
+[1.159470] (robprakt) StdoutLine: {'line': b'writing requirements to ../../build/robprakt/robprakt.egg-info/requires.txt\n'}
+[1.159787] (robprakt) StdoutLine: {'line': b'writing top-level names to ../../build/robprakt/robprakt.egg-info/top_level.txt\n'}
+[1.216094] (-) TimerEvent: {}
+[1.216647] (robprakt) StdoutLine: {'line': b"reading manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'\n"}
+[1.217964] (robprakt) StdoutLine: {'line': b"writing manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'\n"}
+[1.218294] (robprakt) StdoutLine: {'line': b'running build\n'}
+[1.218466] (robprakt) StdoutLine: {'line': b'running build_py\n'}
+[1.218944] (robprakt) StdoutLine: {'line': b'running install\n'}
+[1.219868] (robprakt) StdoutLine: {'line': b'running install_lib\n'}
+[1.221589] (robprakt) StdoutLine: {'line': b'running install_data\n'}
+[1.222397] (robprakt) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.224344] (robprakt) StdoutLine: {'line': b"removing '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.224803] (robprakt) StdoutLine: {'line': b'Copying ../../build/robprakt/robprakt.egg-info to /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info\n'}
+[1.225777] (robprakt) StdoutLine: {'line': b'running install_scripts\n'}
+[1.247255] (robprakt) StdoutLine: {'line': b'Installing service script to /home/rob/praktikum_ws/install/robprakt/lib/robprakt\n'}
+[1.248694] (robprakt) StdoutLine: {'line': b"writing list of installed files to '/home/rob/praktikum_ws/build/robprakt/install.log'\n"}
+[1.280794] (robprakt) CommandEnded: {'returncode': 0}
+[1.290641] (robprakt) JobEnded: {'identifier': 'robprakt', 'rc': 0}
+[1.291308] (robprakt_interfaces) JobStarted: {'identifier': 'robprakt_interfaces'}
+[1.304421] (robprakt_interfaces) JobProgress: {'identifier': 'robprakt_interfaces', 'progress': 'cmake'}
+[1.304682] (robprakt_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/rob/praktikum_ws/src/robprakt_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/rob/praktikum_ws/install/robprakt_interfaces'], 'cwd': '/home/rob/praktikum_ws/build/robprakt_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rob'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1291'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/rob'), ('OLDPWD', '/home/rob/praktikum_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rob/praktikum_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'rob'), ('JOURNAL_STREAM', '8:32885'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rob/praktikum_ws/install/vrpn/lib/x86_64-linux-gnu/pkgconfig:/home/rob/praktikum_ws/install/vrpn/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rob'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rob/praktikum_ws/install/vrpn/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rob-VirtualBox:@/tmp/.ICE-unix/1330,unix/rob-VirtualBox:/tmp/.ICE-unix/1330'), ('INVOCATION_ID', '6692e96cb720459fa50648f92ac4c914'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7a24607e_b5b5_449b_818d_8eb77f0a1411'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rob/praktikum_ws/install/robprakt:/home/rob/praktikum_ws/install/vrpn_client_ros:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rob/praktikum_ws/build/robprakt_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic')]), 'shell': False}
+[1.318296] (-) TimerEvent: {}
+[1.418647] (-) TimerEvent: {}
+[1.519013] (-) TimerEvent: {}
+[1.528940] (robprakt_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.619699] (-) TimerEvent: {}
+[1.690066] (robprakt_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.702950] (robprakt_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.724251] (-) TimerEvent: {}
+[1.780512] (robprakt_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.783227] (robprakt_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.826414] (-) TimerEvent: {}
+[1.860280] (robprakt_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.884387] (robprakt_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.885468] (robprakt_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.890806] (robprakt_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.936235] (-) TimerEvent: {}
+[1.981187] (robprakt_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.982946] (robprakt_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.038393] (-) TimerEvent: {}
+[2.073911] (robprakt_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.094901] (robprakt_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.095907] (robprakt_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.101053] (robprakt_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[2.135858] (robprakt_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.136172] (robprakt_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.138460] (-) TimerEvent: {}
+[2.238862] (-) TimerEvent: {}
+[2.266165] (robprakt_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[2.275589] (robprakt_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.289548] (robprakt_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.338943] (-) TimerEvent: {}
+[2.429839] (robprakt_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.449149] (-) TimerEvent: {}
+[2.472443] (robprakt_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[2.553371] (-) TimerEvent: {}
+[2.614035] (robprakt_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.653475] (-) TimerEvent: {}
+[2.692944] (robprakt_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.768621] (-) TimerEvent: {}
+[2.874955] (-) TimerEvent: {}
+[2.939965] (robprakt_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.940208] (robprakt_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[2.940426] (robprakt_interfaces) StderrLine: {'line': b'  robprakt_interfaces --arguments-file\n'}
+[2.940528] (robprakt_interfaces) StderrLine: {'line': b'  /home/rob/praktikum_ws/build/robprakt_interfaces/rosidl_adapter__arguments__robprakt_interfaces.json\n'}
+[2.940624] (robprakt_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[2.940732] (robprakt_interfaces) StderrLine: {'line': b'  /home/rob/praktikum_ws/build/robprakt_interfaces/rosidl_adapter/robprakt_interfaces\n'}
+[2.943196] (robprakt_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[2.943309] (robprakt_interfaces) StderrLine: {'line': b'  /home/rob/praktikum_ws/build/robprakt_interfaces/rosidl_adapter/robprakt_interfaces.idls)\n'}
+[2.943405] (robprakt_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.943499] (robprakt_interfaces) StderrLine: {'line': b'\n'}
+[2.943590] (robprakt_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.943695] (robprakt_interfaces) StderrLine: {'line': b'\n'}
+[2.943788] (robprakt_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[2.943882] (robprakt_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.944008] (robprakt_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[2.944103] (robprakt_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.944196] (robprakt_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.944289] (robprakt_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.944381] (robprakt_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.944474] (robprakt_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.944565] (robprakt_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[2.944658] (robprakt_interfaces) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[2.944749] (robprakt_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[2.953621] (robprakt_interfaces) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[2.953807] (robprakt_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string\n'}
+[2.953913] (robprakt_interfaces) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[2.954064] (robprakt_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[2.954203] (robprakt_interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[2.954298] (robprakt_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[2.954418] (robprakt_interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[2.954520] (robprakt_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[2.954612] (robprakt_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[2.954754] (robprakt_interfaces) StderrLine: {'line': b'\n'}
+[2.954890] (robprakt_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'seturio_Request' is an invalid\n"}
+[2.954992] (robprakt_interfaces) StderrLine: {'line': b"  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[2.955087] (robprakt_interfaces) StderrLine: {'line': b'\n'}
+[2.955223] (robprakt_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.955319] (robprakt_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.955449] (robprakt_interfaces) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[2.955580] (robprakt_interfaces) StderrLine: {'line': b'\n'}
+[2.955675] (robprakt_interfaces) StderrLine: {'line': b'\n'}
+[2.955809] (robprakt_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.955931] (robprakt_interfaces) StdoutLine: {'line': b'See also "/home/rob/praktikum_ws/build/robprakt_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.956073] (robprakt_interfaces) CommandEnded: {'returncode': 1}
+[2.978107] (-) TimerEvent: {}
+[2.980282] (robprakt_interfaces) JobEnded: {'identifier': 'robprakt_interfaces', 'rc': 1}
+[2.982417] (vrpn) JobSkipped: {'identifier': 'vrpn'}
+[2.982457] (vrpn_client_ros) JobSkipped: {'identifier': 'vrpn_client_ros'}
+[2.982487] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+  File "/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt/vacuum_control.py", line 25
+    self.get_logger().info('Incoming request\na: %d ip: %s' % (request.set robot_ip))
+                                                                           ^
+SyntaxError: invalid syntax
+

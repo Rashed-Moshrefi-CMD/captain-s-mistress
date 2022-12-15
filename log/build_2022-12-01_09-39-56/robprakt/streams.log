@@ -1,0 +1,24 @@
+[0.906s] Invoking command in '/home/rob/praktikum_ws/src/robprakt': CMAKE_PREFIX_PATH=/home/rob/praktikum_ws/install/robprakt_interfaces:/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn PYTHONPATH=/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/home/rob/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages:/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/rob/praktikum_ws/build/robprakt/build install --prefix /home/rob/praktikum_ws/install/robprakt --record /home/rob/praktikum_ws/build/robprakt/install.log --single-version-externally-managed
+[1.292s] running egg_info
+[1.293s] writing ../../build/robprakt/robprakt.egg-info/PKG-INFO
+[1.294s] writing dependency_links to ../../build/robprakt/robprakt.egg-info/dependency_links.txt
+[1.294s] writing entry points to ../../build/robprakt/robprakt.egg-info/entry_points.txt
+[1.295s] writing requirements to ../../build/robprakt/robprakt.egg-info/requires.txt
+[1.295s] writing top-level names to ../../build/robprakt/robprakt.egg-info/top_level.txt
+[1.355s] reading manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+[1.357s] writing manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+[1.358s] running build
+[1.358s] running build_py
+[1.358s] copying robprakt/vacuum_control.py -> /home/rob/praktikum_ws/build/robprakt/build/lib/robprakt
+[1.359s] running install
+[1.360s] running install_lib
+[1.361s] copying /home/rob/praktikum_ws/build/robprakt/build/lib/robprakt/vacuum_control.py -> /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt
+[1.362s] byte-compiling /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt/vacuum_control.py to vacuum_control.cpython-38.pyc
+[1.365s] running install_data
+[1.366s] running install_egg_info
+[1.368s] removing '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info' (and everything under it)
+[1.369s] Copying ../../build/robprakt/robprakt.egg-info to /home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info
+[1.370s] running install_scripts
+[1.392s] Installing vacuum_control script to /home/rob/praktikum_ws/install/robprakt/lib/robprakt
+[1.392s] writing list of installed files to '/home/rob/praktikum_ws/build/robprakt/install.log'
+[1.419s] Invoked command in '/home/rob/praktikum_ws/src/robprakt' returned '0': CMAKE_PREFIX_PATH=/home/rob/praktikum_ws/install/robprakt_interfaces:/home/rob/praktikum_ws/install/vrpn_client_ros:/home/rob/praktikum_ws/install/vrpn PYTHONPATH=/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/home/rob/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages:/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/rob/praktikum_ws/build/robprakt/build install --prefix /home/rob/praktikum_ws/install/robprakt --record /home/rob/praktikum_ws/build/robprakt/install.log --single-version-externally-managed

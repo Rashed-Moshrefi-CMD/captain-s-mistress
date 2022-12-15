@@ -1,0 +1,176 @@
+[0.028s] Invoking command in '/home/praktikum4/praktikum_ws/build/robprakt_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/robprakt_interfaces -- -j12 -l12
+[0.056s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.056s] [35m[1mScanning dependencies of target robprakt_interfaces__cpp[0m
+[0.063s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.267s] [  6%] Built target robprakt_interfaces__cpp
+[0.277s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.277s] [35m[1mScanning dependencies of target robprakt_interfaces__rosidl_generator_c[0m
+[0.277s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.277s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.290s] [ 19%] [32mBuilding C object CMakeFiles/robprakt_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robprakt_interfaces/srv/detail/set_ur_io__functions.c.o[0m
+[0.341s] [ 22%] [32m[1mLinking C shared library librobprakt_interfaces__rosidl_generator_c.so[0m
+[0.376s] [ 22%] Built target robprakt_interfaces__rosidl_generator_c
+[0.386s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.389s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.501s] [35m[1mScanning dependencies of target robprakt_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.566s] [35m[1mScanning dependencies of target robprakt_interfaces__rosidl_typesupport_cpp[0m
+[0.566s] [ 32%] [32mBuilding CXX object CMakeFiles/robprakt_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robprakt_interfaces/srv/detail/set_ur_io__type_support.cpp.o[0m
+[0.589s] [35m[1mScanning dependencies of target robprakt_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.609s] [ 35%] [32mBuilding CXX object CMakeFiles/robprakt_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robprakt_interfaces/srv/set_ur_io__type_support.cpp.o[0m
+[0.642s] [35m[1mScanning dependencies of target robprakt_interfaces__rosidl_typesupport_c[0m
+[0.671s] [ 38%] [32mBuilding CXX object CMakeFiles/robprakt_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robprakt_interfaces/srv/detail/dds_fastrtps/set_ur_io__type_support.cpp.o[0m
+[0.708s] [ 41%] [32mBuilding CXX object CMakeFiles/robprakt_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robprakt_interfaces/srv/set_ur_io__type_support.cpp.o[0m
+[0.720s] [35m[1mScanning dependencies of target robprakt_interfaces__rosidl_typesupport_introspection_c[0m
+[0.796s] [ 45%] [32mBuilding C object CMakeFiles/robprakt_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robprakt_interfaces/srv/detail/set_ur_io__type_support.c.o[0m
+[0.802s] [ 48%] [32m[1mLinking CXX shared library librobprakt_interfaces__rosidl_typesupport_c.so[0m
+[0.842s] [ 51%] [32m[1mLinking CXX shared library librobprakt_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[0.872s] [ 54%] [32m[1mLinking C shared library librobprakt_interfaces__rosidl_typesupport_introspection_c.so[0m
+[0.887s] [ 54%] Built target robprakt_interfaces__rosidl_typesupport_c
+[0.931s] [ 54%] Built target robprakt_interfaces__rosidl_typesupport_introspection_cpp
+[0.933s] [ 54%] Built target robprakt_interfaces__rosidl_typesupport_introspection_c
+[1.004s] [ 58%] [32m[1mLinking CXX shared library librobprakt_interfaces__rosidl_typesupport_cpp.so[0m
+[1.110s] [ 61%] [32m[1mLinking CXX shared library librobprakt_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.111s] [ 61%] Built target robprakt_interfaces__rosidl_typesupport_cpp
+[1.226s] [ 61%] Built target robprakt_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.238s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.552s] [35m[1mScanning dependencies of target robprakt_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.583s] [ 67%] [32mBuilding CXX object CMakeFiles/robprakt_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robprakt_interfaces/srv/detail/set_ur_io__type_support_c.cpp.o[0m
+[1.951s] [ 70%] [32m[1mLinking CXX shared library librobprakt_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.063s] [ 70%] Built target robprakt_interfaces__rosidl_typesupport_fastrtps_c
+[2.084s] [35m[1mScanning dependencies of target robprakt_interfaces[0m
+[2.096s] [ 70%] Built target robprakt_interfaces
+[2.128s] [35m[1mScanning dependencies of target robprakt_interfaces__py[0m
+[2.174s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.981s] [ 74%] Built target robprakt_interfaces__py
+[2.993s] [35m[1mScanning dependencies of target robprakt_interfaces__python[0m
+[3.036s] [ 77%] [32mBuilding C object CMakeFiles/robprakt_interfaces__python.dir/rosidl_generator_py/robprakt_interfaces/srv/_set_ur_io_s.c.o[0m
+[3.201s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robprakt_interfaces/librobprakt_interfaces__python.so[0m
+[3.281s] [ 80%] Built target robprakt_interfaces__python
+[3.324s] [35m[1mScanning dependencies of target robprakt_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.341s] [35m[1mScanning dependencies of target robprakt_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.354s] [35m[1mScanning dependencies of target robprakt_interfaces__rosidl_typesupport_c__pyext[0m
+[3.363s] [ 83%] [32mBuilding C object CMakeFiles/robprakt_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robprakt_interfaces/_robprakt_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.388s] [ 87%] [32mBuilding C object CMakeFiles/robprakt_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robprakt_interfaces/_robprakt_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.390s] [ 90%] [32mBuilding C object CMakeFiles/robprakt_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robprakt_interfaces/_robprakt_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.497s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.517s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.579s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.601s] [100%] Built target robprakt_interfaces__rosidl_typesupport_c__pyext
+[3.675s] [100%] Built target robprakt_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.683s] [100%] Built target robprakt_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.695s] Invoked command in '/home/praktikum4/praktikum_ws/build/robprakt_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/robprakt_interfaces -- -j12 -l12
+[4.039s] Invoking command in '/home/praktikum4/praktikum_ws/build/robprakt_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --install /home/praktikum4/praktikum_ws/build/robprakt_interfaces
+[4.051s] -- Install configuration: ""
+[4.051s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/ament_index/resource_index/rosidl_interfaces/robprakt_interfaces
+[4.051s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces
+[4.051s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv
+[4.051s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/set_ur_io.h
+[4.051s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail
+[4.051s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__functions.c
+[4.051s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__functions.h
+[4.051s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__type_support.h
+[4.051s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__struct.h
+[4.051s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/msg
+[4.052s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.052s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/environment/library_path.sh
+[4.052s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/environment/library_path.dsv
+[4.052s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_generator_c.so
+[4.052s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_generator_c.so" to ""
+[4.052s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces
+[4.052s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv
+[4.052s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail
+[4.052s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__rosidl_typesupport_fastrtps_c.h
+[4.052s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/msg
+[4.052s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.053s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.053s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.053s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces
+[4.053s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv
+[4.053s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail
+[4.053s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__rosidl_typesupport_fastrtps_cpp.hpp
+[4.053s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/dds_fastrtps
+[4.053s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/msg
+[4.053s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.053s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.054s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.054s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces
+[4.054s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv
+[4.054s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail
+[4.054s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__type_support.c
+[4.054s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__rosidl_typesupport_introspection_c.h
+[4.054s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/msg
+[4.054s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.054s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_introspection_c.so
+[4.054s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.054s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_c.so
+[4.055s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_c.so" to ""
+[4.055s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces
+[4.055s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv
+[4.055s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail
+[4.055s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__struct.hpp
+[4.055s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__builder.hpp
+[4.055s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__traits.hpp
+[4.055s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/set_ur_io.hpp
+[4.055s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces
+[4.055s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv
+[4.055s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail
+[4.055s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__rosidl_typesupport_introspection_cpp.hpp
+[4.055s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/include/robprakt_interfaces/srv/detail/set_ur_io__type_support.cpp
+[4.055s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.056s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.056s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_cpp.so
+[4.056s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.056s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/environment/pythonpath.sh
+[4.056s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/environment/pythonpath.dsv
+[4.056s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/__init__.py
+[4.093s] Compiling '/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/__init__.py'...
+[4.097s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/srv
+[4.097s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/srv/_set_ur_io.py
+[4.097s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/srv/_set_ur_io_s.c
+[4.098s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/srv/__init__.py
+[4.098s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.099s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.099s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.100s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.100s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.101s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages/robprakt_interfaces/robprakt_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.101s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__python.so
+[4.101s] -- Set runtime path of "/home/praktikum4/praktikum_ws/install/robprakt_interfaces/lib/librobprakt_interfaces__python.so" to ""
+[4.101s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/srv/SetUrIo.idl
+[4.102s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/srv/SetUrIo.srv
+[4.102s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/srv/SetUrIo_Request.msg
+[4.102s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/srv/SetUrIo_Response.msg
+[4.102s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/ament_index/resource_index/package_run_dependencies/robprakt_interfaces
+[4.102s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/ament_index/resource_index/parent_prefix_path/robprakt_interfaces
+[4.103s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/environment/ament_prefix_path.sh
+[4.103s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/environment/ament_prefix_path.dsv
+[4.103s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/environment/path.sh
+[4.103s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/environment/path.dsv
+[4.103s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/local_setup.bash
+[4.103s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/local_setup.sh
+[4.103s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/local_setup.zsh
+[4.104s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/local_setup.dsv
+[4.104s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.dsv
+[4.104s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/ament_index/resource_index/packages/robprakt_interfaces
+[4.104s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_generator_cExport.cmake
+[4.104s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.104s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.104s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.105s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_typesupport_cExport.cmake
+[4.105s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.105s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_generator_cppExport.cmake
+[4.105s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.105s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.106s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_typesupport_cppExport.cmake
+[4.106s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.106s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.106s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.106s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.106s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.106s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.106s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.106s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.106s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfacesConfig.cmake
+[4.107s] -- Installing: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/cmake/robprakt_interfacesConfig-version.cmake
+[4.107s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.xml
+[4.114s] Invoked command in '/home/praktikum4/praktikum_ws/build/robprakt_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --install /home/praktikum4/praktikum_ws/build/robprakt_interfaces

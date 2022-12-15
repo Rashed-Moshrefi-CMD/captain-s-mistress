@@ -1,0 +1,1 @@
+/home/praktikum4/praktikum_ws/src/pymoveit2/examples/ex_pose_goal_ur.py

@@ -1,0 +1,333 @@
+[0.299s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.300s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f10c1c4d730>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=1, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f10c1c4d730>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f10c1c4dd90>)
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.341s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rob/praktikum_ws'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt) by extension 'ros'
+[0.377s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robprakt' with type 'ros.ament_python' and name 'robprakt'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt_interfaces) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt_interfaces) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt_interfaces) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt_interfaces) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt_interfaces) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt_interfaces) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt_interfaces) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/robprakt_interfaces) by extension 'ros'
+[0.379s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robprakt_interfaces' with type 'ros.ament_cmake' and name 'robprakt_interfaces'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn-release) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn-release) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn-release) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn-release) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn-release) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn-release) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn-release) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn-release) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn-release) by extension 'ros'
+[0.381s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrpn-release' with type 'ros.cmake' and name 'vrpn'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros2) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros2) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros2) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros2) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros2) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros2) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros2) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros2) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrpn_client_ros2' with type 'ros.ament_cmake' and name 'vrpn_client_ros'
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.420s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/rob/praktikum_ws/install
+[0.424s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/galactic
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'robprakt_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'robprakt_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'robprakt_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'robprakt_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'robprakt_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'robprakt_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'robprakt_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'robprakt_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'robprakt_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.576s] DEBUG:colcon.colcon_core.verb:Building package 'robprakt_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rob/praktikum_ws/build/robprakt_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rob/praktikum_ws/install/robprakt_interfaces', 'merge_install': False, 'path': '/home/rob/praktikum_ws/src/robprakt_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'vrpn' build argument 'cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'vrpn' build argument 'cmake_target' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'vrpn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'vrpn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'vrpn' build argument 'cmake_clean_first' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'vrpn' build argument 'cmake_force_configure' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'vrpn' build argument 'ament_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'vrpn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'vrpn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.578s] DEBUG:colcon.colcon_core.verb:Building package 'vrpn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rob/praktikum_ws/build/vrpn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rob/praktikum_ws/install/vrpn', 'merge_install': False, 'path': '/home/rob/praktikum_ws/src/vrpn-release', 'symlink_install': False, 'test_result_base': None}
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_target' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.580s] DEBUG:colcon.colcon_core.verb:Building package 'vrpn_client_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rob/praktikum_ws/build/vrpn_client_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rob/praktikum_ws/install/vrpn_client_ros', 'merge_install': False, 'path': '/home/rob/praktikum_ws/src/vrpn_client_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'robprakt' build argument 'cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'robprakt' build argument 'cmake_target' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'robprakt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'robprakt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'robprakt' build argument 'cmake_clean_first' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'robprakt' build argument 'cmake_force_configure' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'robprakt' build argument 'ament_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'robprakt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'robprakt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'robprakt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rob/praktikum_ws/build/robprakt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rob/praktikum_ws/install/robprakt', 'merge_install': False, 'path': '/home/rob/praktikum_ws/src/robprakt', 'symlink_install': False, 'test_result_base': None}
+[0.584s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rob/praktikum_ws/src/robprakt_interfaces' with build type 'ament_cmake'
+[0.591s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rob/praktikum_ws/src/robprakt_interfaces'
+[0.597s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.597s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.597s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob/praktikum_ws/build/robprakt_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --build /home/rob/praktikum_ws/build/robprakt_interfaces -- -j1 -l1
+[1.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob/praktikum_ws/build/robprakt_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --build /home/rob/praktikum_ws/build/robprakt_interfaces -- -j1 -l1
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob/praktikum_ws/build/robprakt_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --install /home/rob/praktikum_ws/build/robprakt_interfaces
+[1.181s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robprakt_interfaces)
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces' for CMake module files
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces' for CMake config files
+[1.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('robprakt_interfaces', 'cmake_prefix_path')
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/cmake_prefix_path.ps1'
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob/praktikum_ws/build/robprakt_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --install /home/rob/praktikum_ws/build/robprakt_interfaces
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/cmake_prefix_path.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/cmake_prefix_path.sh'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces/lib'
+[1.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('robprakt_interfaces', 'ld_library_path_lib')
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/ld_library_path_lib.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/ld_library_path_lib.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/ld_library_path_lib.sh'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces/bin'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces/lib/pkgconfig/robprakt_interfaces.pc'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages'
+[1.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('robprakt_interfaces', 'pythonpath')
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/pythonpath.ps1'
+[1.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/pythonpath.dsv'
+[1.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/pythonpath.sh'
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces/bin'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.sh'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.bash'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.zsh'
+[1.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob/praktikum_ws/install/robprakt_interfaces/share/colcon-core/packages/robprakt_interfaces)
+[1.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robprakt_interfaces)
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces' for CMake module files
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces' for CMake config files
+[1.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('robprakt_interfaces', 'cmake_prefix_path')
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/cmake_prefix_path.ps1'
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/cmake_prefix_path.dsv'
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/cmake_prefix_path.sh'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces/lib'
+[1.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('robprakt_interfaces', 'ld_library_path_lib')
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/ld_library_path_lib.ps1'
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/ld_library_path_lib.dsv'
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/ld_library_path_lib.sh'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces/bin'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces/lib/pkgconfig/robprakt_interfaces.pc'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages'
+[1.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('robprakt_interfaces', 'pythonpath')
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/pythonpath.ps1'
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/pythonpath.dsv'
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/hook/pythonpath.sh'
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt_interfaces/bin'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.ps1'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.dsv'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.sh'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.bash'
+[1.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt_interfaces/share/robprakt_interfaces/package.zsh'
+[1.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob/praktikum_ws/install/robprakt_interfaces/share/colcon-core/packages/robprakt_interfaces)
+[1.297s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/rob/praktikum_ws/src/vrpn-release' with build type 'cmake'
+[1.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rob/praktikum_ws/src/vrpn-release'
+[1.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob/praktikum_ws/build/vrpn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --build /home/rob/praktikum_ws/build/vrpn -- -j1 -l1
+[1.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob/praktikum_ws/build/vrpn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --build /home/rob/praktikum_ws/build/vrpn -- -j1 -l1
+[2.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob/praktikum_ws/build/vrpn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --install /home/rob/praktikum_ws/build/vrpn
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob/praktikum_ws/build/vrpn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --install /home/rob/praktikum_ws/build/vrpn
+[2.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn', 'pkg_config_path')
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/pkg_config_path.ps1'
+[2.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/pkg_config_path.dsv'
+[2.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/pkg_config_path.sh'
+[2.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn', 'pkg_config_path_multiarch')
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/pkg_config_path_multiarch.ps1'
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/pkg_config_path_multiarch.dsv'
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/pkg_config_path_multiarch.sh'
+[2.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrpn)
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn' for CMake module files
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn' for CMake config files
+[2.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn', 'cmake_prefix_path')
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/cmake_prefix_path.ps1'
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/cmake_prefix_path.dsv'
+[2.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/cmake_prefix_path.sh'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn/lib'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn/bin'
+[2.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn', 'path')
+[2.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/path.ps1'
+[2.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/path.dsv'
+[2.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/path.sh'
+[2.481s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn/lib/pkgconfig/vrpn.pc'
+[2.482s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn/lib/python3.8/site-packages'
+[2.482s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn/bin'
+[2.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn', 'pythonscriptspath')
+[2.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/pythonscriptspath.ps1'
+[2.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/pythonscriptspath.dsv'
+[2.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn/share/vrpn/hook/pythonscriptspath.sh'
+[2.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn/share/vrpn/package.ps1'
+[2.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob/praktikum_ws/install/vrpn/share/vrpn/package.dsv'
+[2.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn/share/vrpn/package.sh'
+[2.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn/share/vrpn/package.bash'
+[2.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn/share/vrpn/package.zsh'
+[2.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob/praktikum_ws/install/vrpn/share/colcon-core/packages/vrpn)
+[2.493s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rob/praktikum_ws/src/vrpn_client_ros2' with build type 'ament_cmake'
+[2.493s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rob/praktikum_ws/src/vrpn_client_ros2'
+[2.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --build /home/rob/praktikum_ws/build/vrpn_client_ros -- -j1 -l1
+[2.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob/praktikum_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --build /home/rob/praktikum_ws/build/vrpn_client_ros -- -j1 -l1
+[2.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --install /home/rob/praktikum_ws/build/vrpn_client_ros
+[2.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrpn_client_ros)
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros' for CMake module files
+[2.725s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros' for CMake config files
+[2.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn_client_ros', 'cmake_prefix_path')
+[2.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.ps1'
+[2.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob/praktikum_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rob/praktikum_ws/install/robprakt:/opt/ros/galactic /usr/bin/cmake --install /home/rob/praktikum_ws/build/vrpn_client_ros
+[2.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.dsv'
+[2.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.sh'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros/lib'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros/bin'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros/lib/pkgconfig/vrpn_client_ros.pc'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros/lib/python3.8/site-packages'
+[2.731s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros/bin'
+[2.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.ps1'
+[2.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv'
+[2.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.sh'
+[2.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.bash'
+[2.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.zsh'
+[2.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob/praktikum_ws/install/vrpn_client_ros/share/colcon-core/packages/vrpn_client_ros)
+[2.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrpn_client_ros)
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros' for CMake module files
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros' for CMake config files
+[2.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn_client_ros', 'cmake_prefix_path')
+[2.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.ps1'
+[2.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.dsv'
+[2.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.sh'
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros/lib'
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros/bin'
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros/lib/pkgconfig/vrpn_client_ros.pc'
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros/lib/python3.8/site-packages'
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/vrpn_client_ros/bin'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.ps1'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv'
+[2.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.sh'
+[2.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.bash'
+[2.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.zsh'
+[2.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob/praktikum_ws/install/vrpn_client_ros/share/colcon-core/packages/vrpn_client_ros)
+[2.793s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rob/praktikum_ws/src/robprakt' with build type 'ament_python'
+[2.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('robprakt', 'ament_prefix_path')
+[2.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt/share/robprakt/hook/ament_prefix_path.ps1'
+[2.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/robprakt/share/robprakt/hook/ament_prefix_path.dsv'
+[2.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt/share/robprakt/hook/ament_prefix_path.sh'
+[2.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.177s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rob/praktikum_ws/src/robprakt'
+[3.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob/praktikum_ws/src/robprakt': PYTHONPATH=/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/rob/praktikum_ws/build/robprakt/build install --prefix /home/rob/praktikum_ws/install/robprakt --record /home/rob/praktikum_ws/build/robprakt/install.log --single-version-externally-managed
+[4.238s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt' for CMake module files
+[4.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob/praktikum_ws/src/robprakt' returned '0': PYTHONPATH=/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/rob/praktikum_ws/build/robprakt/build install --prefix /home/rob/praktikum_ws/install/robprakt --record /home/rob/praktikum_ws/build/robprakt/install.log --single-version-externally-managed
+[4.240s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt' for CMake config files
+[4.241s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt/lib'
+[4.241s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt/bin'
+[4.241s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt/lib/pkgconfig/robprakt.pc'
+[4.242s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt/lib/python3.8/site-packages'
+[4.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('robprakt', 'pythonpath')
+[4.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt/share/robprakt/hook/pythonpath.ps1'
+[4.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob/praktikum_ws/install/robprakt/share/robprakt/hook/pythonpath.dsv'
+[4.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob/praktikum_ws/install/robprakt/share/robprakt/hook/pythonpath.sh'
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/rob/praktikum_ws/install/robprakt/bin'
+[4.249s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robprakt)
+[4.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt/share/robprakt/package.ps1'
+[4.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob/praktikum_ws/install/robprakt/share/robprakt/package.dsv'
+[4.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt/share/robprakt/package.sh'
+[4.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt/share/robprakt/package.bash'
+[4.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob/praktikum_ws/install/robprakt/share/robprakt/package.zsh'
+[4.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob/praktikum_ws/install/robprakt/share/colcon-core/packages/robprakt)
+[4.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.257s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.276s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.305s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.308s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rob/praktikum_ws/install/local_setup.ps1'
+[4.315s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rob/praktikum_ws/install/_local_setup_util_ps1.py'
+[4.318s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rob/praktikum_ws/install/setup.ps1'
+[4.320s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rob/praktikum_ws/install/local_setup.sh'
+[4.321s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rob/praktikum_ws/install/_local_setup_util_sh.py'
+[4.321s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rob/praktikum_ws/install/setup.sh'
+[4.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rob/praktikum_ws/install/local_setup.bash'
+[4.335s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rob/praktikum_ws/install/setup.bash'
+[4.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rob/praktikum_ws/install/local_setup.zsh'
+[4.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rob/praktikum_ws/install/setup.zsh'

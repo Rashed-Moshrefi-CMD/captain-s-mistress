@@ -1,0 +1,1 @@
+/home/praktikum4/praktikum_ws/build/robprakt_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

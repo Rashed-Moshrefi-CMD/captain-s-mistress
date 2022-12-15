@@ -1,0 +1,15 @@
+[  3%] Built target quat
+[  5%] Built target gpsnmea
+[  6%] Built target vrpn_timecode_generator
+[  9%] Built target vrpn_atmel
+[ 23%] Built target vrpn
+[ 86%] Built target vrpnserver
+[ 87%] Built target vrpn_streamPrint
+[ 88%] Built target vrpn_print_performance
+[ 90%] Built target c_interface_example
+[ 90%] Built target vrpn_print_messages
+[ 91%] Built target vrpn_print_devices
+[ 91%] Built target run_auxiliary_logger
+[ 91%] Built target vrpn_average_analogs
+[ 92%] Built target vrpn_server
+[100%] Built target vrpn-python

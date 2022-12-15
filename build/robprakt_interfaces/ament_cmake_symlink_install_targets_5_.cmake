@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/praktikum4/praktikum_ws/build/robprakt_interfaces/rosidl_generator_py/robprakt_interfaces/librobprakt_interfaces__python.so" "TARGETS" "robprakt_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,53 @@
+[0.026s] Invoking command in '/home/praktikum4/praktikum_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/pymoveit2 -- -j12 -l12
+[0.113s] Built target ament_cmake_python_copy_pymoveit2
+[0.270s] running egg_info
+[0.271s] writing pymoveit2.egg-info/PKG-INFO
+[0.271s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[0.271s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[0.296s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.297s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.314s] Built target ament_cmake_python_build_pymoveit2_egg
+[0.331s] Invoked command in '/home/praktikum4/praktikum_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/praktikum4/praktikum_ws/build/pymoveit2 -- -j12 -l12
+[0.348s] Invoking command in '/home/praktikum4/praktikum_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --install /home/praktikum4/praktikum_ws/build/pymoveit2
+[0.355s] -- Install configuration: ""
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info
+[0.355s] -- Installing: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/PKG-INFO
+[0.355s] -- Installing: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/dependency_links.txt
+[0.355s] -- Installing: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/top_level.txt
+[0.355s] -- Installing: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/SOURCES.txt
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2_gripper.py
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/panda.py
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/ur5e.py
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/__init__.py
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2_servo.py
+[0.355s] -- Installing: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2.py
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/gripper_command.py
+[0.355s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/__init__.py
+[0.387s] Listing '/home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2'...
+[0.387s] Compiling '/home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2.py'...
+[0.387s] Listing '/home/praktikum4/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots'...
+[0.390s] -- Installing: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_collision_object_ur.py
+[0.390s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_joint_goal_ur.py
+[0.390s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_pose_goal_ur.py
+[0.390s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_servo_ur.py
+[0.390s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/lib/pymoveit2/spiral.py
+[0.390s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[0.390s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[0.390s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+[0.390s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+[0.390s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/path.sh
+[0.391s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/path.dsv
+[0.391s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.bash
+[0.391s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.sh
+[0.391s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.zsh
+[0.391s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.dsv
+[0.391s] -- Installing: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/package.dsv
+[0.391s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+[0.391s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+[0.391s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[0.391s] -- Up-to-date: /home/praktikum4/praktikum_ws/install/pymoveit2/share/pymoveit2/package.xml
+[0.396s] Invoked command in '/home/praktikum4/praktikum_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praktikum4/praktikum_ws/install/robprakt:/home/praktikum4/ws_moveit2/install/moveit_configs_utils:/home/praktikum4/ws_moveit2/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --install /home/praktikum4/praktikum_ws/build/pymoveit2
